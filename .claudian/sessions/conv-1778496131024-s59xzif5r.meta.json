@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778496131024-s59xzif5r",
+  "providerId": "claude",
+  "title": "分析不同机箱尺寸的便携性",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778496131024,
+  "updatedAt": 1778596762093,
+  "lastResponseAt": 1778596762093,
+  "sessionId": "6bce325b-c066-45b3-b973-8ca9848a75e3",
+  "providerState": {
+    "providerSessionId": "6bce325b-c066-45b3-b973-8ca9848a75e3"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 84952,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 84952,
+    "percentage": 42,
+    "contextWindowIsAuthoritative": true
+  }
+}

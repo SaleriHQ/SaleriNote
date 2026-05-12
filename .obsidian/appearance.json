@@ -1,0 +1,9 @@
+{
+  "nativeMenus": false,
+  "accentColor": "#67feb8",
+  "cssTheme": "Cupertino",
+  "interfaceFontFamily": "HarmonyOS Sans",
+  "textFontFamily": "HarmonyOS Sans",
+  "monospaceFontFamily": "HarmonyOS Sans",
+  "enabledCssSnippets": []
+}

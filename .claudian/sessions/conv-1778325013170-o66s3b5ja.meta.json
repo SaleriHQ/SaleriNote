@@ -1,0 +1,22 @@
+{
+  "id": "conv-1778325013170-o66s3b5ja",
+  "providerId": "claude",
+  "title": "Hide pages from Obsidian graph view",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778325013174,
+  "updatedAt": 1778496079222,
+  "lastResponseAt": 1778493724236,
+  "sessionId": "42669f30-2d2c-4c54-8d89-c6b88fdd2b04",
+  "providerState": {
+    "providerSessionId": "42669f30-2d2c-4c54-8d89-c6b88fdd2b04"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 5914,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 5914,
+    "percentage": 3
+  }
+}
