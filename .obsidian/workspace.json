@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922
+    "width": 244.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -186,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 525.5
+    "width": 525.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,7 +199,7 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "41690df788e5d264",
+  "active": "4e60bcf7172bf838",
   "lastOpenFiles": [
     "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
     "Concepts/VueRouter/导航守卫.md",

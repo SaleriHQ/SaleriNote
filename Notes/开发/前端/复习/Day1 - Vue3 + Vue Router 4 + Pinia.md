@@ -569,10 +569,10 @@ export const useSearchFilters = defineStore('search-filters', () => {
 })
 ```
 
-> [!DANGER]  
+> [!Warning]  
 > 文件不存在
 
-## 修改记录
+7 ## 修改记录
 
 - 2026.5.13@12:35 完成 Vue 的复习
 - 2026.5.13@17.49 完成 Vue Router 的学习
