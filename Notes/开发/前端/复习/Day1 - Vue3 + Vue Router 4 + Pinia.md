@@ -239,6 +239,121 @@ emit('response', 'hello from child')
 在子组件中使用 `<slot>` 进行占位，作为之后插槽内容的出口。`<slot>` 内的内容作为未传递内容时的默认渲染选项。
 
 ## Vue Router 4
+
+### 入门
+
+Vue Router 是 Vue 的客户端路由解决方案，可以使用 Vue Router 通过 URL 决定要显示哪些组件。
+
+#### 示例
+
+```vue
+<h1>Hello World</h1>
+<p>Now Router is: {{ $route.fullPath }}</p>
+<nav>
+	<RouterLink to="/">home</RouterLink>
+	<RouterLink to="/about">About</RouterLink>
+</nav>
+<main>
+	<RouterView />
+</main>
+```
+
+这是一个简单的 Vue Router 示例，使用了两个由 Vue Router提供的组件：`RouterLink`和`RouterView`。
+在 Vue Router 中，我们不使用 `<a>` 创建连接，我们使用 Vue Router 提供的`RouterLink`，它能够使 Vue Router 在不重新加载页面的情况下改变 URL。
+`RouterView`则是一个告诉 Vue Router 在哪里渲染当前 URL 对应组件的组件。
+上面的示例代码还使用了 `$route.fullPath` 这是一个 Vue Router 注册的全局变量，用于访问一些关于 Router 的内容。
+#### 路由实例创建
+
+```js
+import { createRouter, createMemoryHistory } from "vue-router";
+import Home from "./pages/Home.vue";
+import About from "./pages/About.vue";
+const routes = [
+	{
+		path: "/",
+		component: Home,
+	},
+	{
+		path: "/about",
+		component: About,
+	},
+];
+const router = createRouter({
+	history: createMemoryHistory(),
+	routes,
+});
+```
+
+路由实例通过 `createRouter` 进行创建，上述代码创建了一个 `/` 和 `/about` 的路由，分别对应了对应的组件，这些组件就是会被渲染到`RouterView`上的组件。
+#### 注册
+
+可以使用 `.use` 挂载到 Vue 上，然后就可以在各个页面进行使用。
+
+```js
+createApp(app).use(router).mount('#app');
+```
+
+## 动态路由匹配
+
+#### 带参数的路由匹配
+
+很多时候，需要用一个组件匹配很多个页面内容，我们可以使用一个动态字段来实现，称之为**路径参数**
+
+```js
+import User from './User.vue';
+const routes = [
+	{ path: '/users/:id', component: User },
+]
+```
+
+现在 `/user/1` 和 `/user/2` 这样的 URL 都是同一个路由。
+路径参数使用 `：` 表示，当一个路由匹配时，这个变量会被暴露到 `$route.params`。
+或者我们可以使用多个参数
+
+| 匹配模式                           | 匹配路径                      | route.params                           |
+| ------------------------------ | ------------------------- | -------------------------------------- |
+| /users/:username               | /users/SaleriHQ           | { username: 'SaleriHQ' }               |
+| /users/:username/posts/:postId | /users/SaleriHQ/posts/123 | { username: 'SaleriHQ', postId: '123'} |
+#### 响应式参数
+
+使用带参数的路由时，从 `/users/1` 导航到 `/users/2` 时，相同的组件被复用，比起销毁再创建，复用显得更加高效。如果需要复用，可以简单的监听 `route.params`
+
+```js
+const route = useRoute();
+watch(() => route.params.id, (newId, oldId) => {
+	// 处理
+});
+```
+
+或者使用 `beforeRouteUpdate` [[导航守卫]]，它可以直接取消导航。
+
+```js
+onBeforeRouteUpdate(async (to, from) => {
+	// 处理
+	userData.value = await fetchUser(to.params.id)
+})
+```
+
+#### 捕获所有路由或者 404 路由
+
+常规参数只匹配 URL 片段之间的内容，如果想要匹配任意路径，可以使用自定义的路径参数正则表达式，在路径参数之后的括号中加入正则表达式就行。
+
+```js
+const routes = [
+	// 匹配所有内容并放置在 route.params.pathMath 下
+	{ path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound},\
+	// 匹配 /user- 开头的所有内容，并放置在 route.params.afterUser下
+	{ path: '/user-:afterUser(.*)', component: UserGeneric }
+]
+```
+
+
+
+
+
+
+
+
 ## 修改记录
 
 - 2026.5.13@12:35 完成 Vue 的复习

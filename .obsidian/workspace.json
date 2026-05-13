@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c385904b7c22def3",
+        "id": "0d5d302b90fa0359",
         "type": "tabs",
         "children": [
           {
-            "id": "3782994023065e6e",
+            "id": "4e60bcf7172bf838",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,11 +183,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 414.5
+    "width": 525.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,9 +199,12 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "3782994023065e6e",
+  "active": "4e60bcf7172bf838",
   "lastOpenFiles": [
+    "Concepts/VueRouter/导航守卫.md",
     "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
+    "Notes/开发/前端/前端工作计划.md",
+    "Concepts/VueRouter",
     "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md.tmp.36699.13f0ad7ad83b",
     "Concepts/Vue/虚拟DOM.md",
     "Concepts/Vue/侦听器.md",
@@ -219,10 +223,8 @@
     "Concepts/开发/前端/Vue",
     "Concepts/开发/前端",
     "Concepts/开发",
-    "Notes/开发/前端/前端工作计划.md",
     "11.md",
     "未命名.md",
-    "Notes/开发/前端/复习",
     "Notes/开发/前端/关于寻找前端开发相关工作的复习计划.md",
     "Notes/计算机硬件/关于台式组建和配置硬件选择.md",
     "Clippings/Bilibili/2026-05-12-[FF14]妖星乱舞绝境战-筹备专题茶话会.md",
