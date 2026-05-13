@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "858250f45f518fb3",
+        "id": "f1024dac6ffb80bb",
         "type": "tabs",
         "children": [
           {
-            "id": "a1d706c428635bb5",
+            "id": "ce73c7a0d7b2f82c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/开发/前端/前端工作计划.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "前端工作计划"
+              "title": "新标签页"
             }
           }
         ]
@@ -156,8 +152,18 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "9a5eae53f133aeb1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -165,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 554.5,
-    "collapsed": true
+    "width": 554.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,12 +179,15 @@
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "claudian:Open Claudian": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": true
     }
   },
-  "active": "a1d706c428635bb5",
+  "active": "41690df788e5d264",
   "lastOpenFiles": [
+    "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
+    "未命名.md",
     "Notes/开发/前端/前端工作计划.md",
+    "Notes/开发/前端/复习",
     "Notes/开发/前端/关于寻找前端开发相关工作的复习计划.md",
     "Notes/开发/前端",
     "Notes/开发",
@@ -196,7 +204,6 @@
     "Clippings/Bilibili/2026-05-11-选风冷还是选水冷，看这一期视频就够了.md",
     "Clippings/Bilibili",
     "Notes/计算机硬件/assets/Pasted image 20260511184019.png",
-    "Notes/计算机硬件/assets",
     "template/{{title}}.md",
     "Concepts/计算机硬件/GPU.md",
     "Concepts/计算机硬件/CPU.md",
@@ -222,8 +229,6 @@
     "Clippings/MIT18.01/static_shared/images/video_play_overlay.42e62ca534a2528e4ad0.png",
     "Clippings/MIT18.01/static_shared/images/videojs_download.e0dbb2cfb52d2d71ba4a.svg",
     "Clippings/MIT18.01/static_shared/images/search.42a42bffcdf041e57b97.svg",
-    "Clippings/MIT18.01/static_shared/images/resource-download.d374f56f2572d49418bc.svg",
-    "笔记仓库.md",
-    "Clippings/03-rec-poly_pdf.md"
+    "Clippings/MIT18.01/static_shared/images/resource-download.d374f56f2572d49418bc.svg"
   ]
 }

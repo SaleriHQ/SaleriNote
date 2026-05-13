@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://dida365.com/pub/calendar/feeds/cdxzv1u761db/basic.ics",
+      "displayName": "滴答",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
