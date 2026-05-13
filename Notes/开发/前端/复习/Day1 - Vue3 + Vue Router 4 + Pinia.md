@@ -511,6 +511,11 @@ router.beforeEach(async (to.from) => {
 
 Pinia是一个Vue的状态管理库，允许跨组件和页面进行状态共享。
 
+```js
+const pinia = createPinia();
+createApp(App).use(pinia).use(router).mount("#app");
+```
+
 ### 定义Store
 
 Store由 `defineStore()` 定义，第一个参数要求独一无二的名字。
@@ -584,14 +589,43 @@ const store = useCounterStore()
 
 不过要注意的是 store 是一个 `reactive` 包装的对象，这意味着不需要再 getters 后面写 `.value`，同时也不能对他们进行结构。
 
-```js hl:2-3
+```js hl:2-4
 const store = useCounterStore();
-const { name, doubleCount } = store;// asd
-s
 
+const { name, doubleCount } = store;// ❌错误，破坏了响应式
+name // ❌错误，会一直是Saleri不会响应式更新
+doubleCount // ❌错误，会一直是0
 
-
+setTimeout(() => {
+	store.increment()
+}, 1000)
+const doubleValue = computed(() => store.doubleValue)
 ```
+### State
+
+多数情况下，State都是 store 的核心，在 pinia 中，state被定义为一个会返回初始状态的
+函数，使得pinia支持服务端和客户端。
+#### 重置 state
+
+使用选项式 API 可以直接使用 `$reset()`  进行重置。
+
+```js
+const store = useStore()
+store.$reset()
+```
+
+如果使用的是组合式 API, 则需要自行定义。
+
+```js
+export const useCounterStore = defineStore('counter', () => {
+	const count = ref(0)
+	function $reset() {
+		count.value = 0
+	}
+	return { count, $reset }
+})
+```
+#### Getter
 
 
 
