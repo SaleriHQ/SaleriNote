@@ -347,14 +347,232 @@ const routes = [
 ]
 ```
 
+### 嵌套路由
+
+ 一些应用的 UI 由多个层级构成，这样可以使用 URL 对应页面的嵌套层级。之前通过 `RouterView` 渲染了路由组件，当然也可以在被渲染的组件内再次使用 `RouterView` 渲染子路由。
+
+```js
+const routes = [
+	{
+		path: '/user/:id',
+		component: User,
+		children: [
+			{
+				path: 'profile',
+				component: UserProfile
+			},
+			{
+				path: 'posts',
+				component: UserPosts
+			}
+		]
+	}
+]
+```
+ 
+如果希望匹配目前每匹配的剩余内容，可以使用一个空的嵌套路径进行匹配。
+
+```js
+const routes = [
+	{
+		path: '/user/:id',
+		component: User,
+		children: [
+			{ path: '', component: UserHome }
+		]
+	}
+]
+```
+
+### 编程式导航
+
+除了使用`RouterLink`进行导航，还可以使用编写代码的方式进行导航。
+
+```js
+router.push('/users/Saleri')
+router.push({ path: '/users/Saleri' })
+router.push({ name: 'user', params: { username:'Saleri' }})
+router.push({ path: '/register', query: { plan: 'private' }})
+router.push({ path: '/about', hash: '#team' })
+```
+
+ 不过要注意的是当制定`path`时，会直接忽略`params`这一属性。
+#### 历史
+
+```js
+// 往前一条记录
+router.go(1)
+// 返回一条记录
+router.go(-1)
+// 前进3条记录
+router.go(3)
+// 如果没有充足的记录，会静默失败
+router.go(100)
+```
+
+#### 替代当前位置
+
+类似于`router.push`，不同的是他不会向history添加记录
+
+声明式
+```vue
+<RouterLink :to='...' replace></RouterLink>
+```
+
+编程式
+
+```js
+router.push({ path: '/home', replace: true })
+router.replace({ path: '/home' })
+```
+
+### 命名视图
+
+有的时候希望同级展示多个视图，而不是嵌套展示，如创建一个`layout`，需要有一个`sidebar`和`main`两个视图，这个时候命名视图的作用就出现了，可以设置名字拥有多个视图。如果而没有设置名字，默认为`default`。
+
+```vue
+<RouterView class="view left-sidebar" name="LeftSidebar" />
+<RouterView class="view main-content" />
+<RouterView class="view right-sidebar" name="RightSidebar" />
+```
+
+```js
+const routes = [
+	{
+		path: '/',
+		components: {
+			default: Home,
+			LeftSidebar,
+			RightSideBar
+		}
+	}
+]
+```
+#### 嵌套命名视图
 
 
+```vue
+<div>
+  <h1>User Settings</h1>
+  <NavBar />
+  <router-view />
+  <router-view name="helper" />
+</div>
+```
 
+```js
+{
+  path: '/settings',
+  // 你也可以在顶级路由就配置命名视图
+  component: UserSettings,
+  children: [{
+    path: 'emails',
+    component: UserEmailsSubscriptions
+  }, {
+    path: 'profile',
+    components: {
+      default: UserProfile,
+      helper: UserProfilePreview
+    }
+  }]
+}
+```
+### 重定向
 
+```js
+const routes = [{ path: '/home', redirect: '/' }]
+```
+### 导航守卫
 
+#### 全局前置守卫
 
+可以使用 `router.beforeEach` 注册一个全局前置守卫
+
+```js
+router.beforeEach((to, from) => {
+	// 返回false取消导航
+	return false
+})
+```
+
+当一个导航处罚时，全局前置守卫按照创建顺序进行执行，守卫是异步执行，此时导航在所有守卫resolve前一直处于等待状态。
+可以返回的值有：
+- `false` ：取消当前导航
+- `路由地址`：重定向到一个不同的地址
+
+```js
+router.beforeEach(async (to.from) => {
+	if(!isAuthenticated && to.name !== 'login') {
+		return { name: 'login' }
+	}
+})
+```
+## Pinia
+
+Pinia是一个Vue的状态管理库，允许跨组件和页面进行状态共享。
+
+### 定义Store
+
+Store由 `defineStore()` 定义，第一个参数要求独一无二的名字。
+
+```js
+export const useAlertsStore = defineStore('alerts', {
+	// config
+})
+```
+#### Option Store
+
+我们在`defineStore`内定义`Store`的`state`（数据），`getters`（计算属性）,`actions`（方法）。
+
+```js
+export const useCounterStore = defineStore('counter', {
+	state: () => ({ count: 0, name: 'Saleri' }),
+	getters: {
+		doubleCount: (state) => state.count * 2,
+	},
+	actions: {
+		increment() {
+			this.count++
+		}
+	}
+})
+```
+#### Setup Store
+
+使用另一种语法格式，类似于 Vue 组合API
+
+```js
+export const useCounterStore = defineStore('counter', () => {
+	const count = ref(0)
+	const name = ref('Saleri),
+	const doubleCount = computed(() => count.value * 2)
+	function increment() {
+		count.value++
+	}
+	return { count, name, doubleCount, increment }
+})
+```
+
+> 需要注意的是虽然 `Setup Store` 比 `Option Store` 更加的自由，但是相对的，使用 `Setup Store` 也会有限制，如在结尾必须返回`state`所有属性，不能有私有属性，不完整返回会影响SSR,开发工具和其他插件的运行。
+
+Setup store也可也访问依赖于全局提供的属性，比如路由，任何应用层面提供的属性都可也在 store 中使用 `inject()` 访问，就像在组件中一样。
+
+```js
+export const useSearchFilters = defineStore('search-filters', () => {
+	const route = useRoute()
+	// 这里假定 `app.provide('appProvided', 'value')` 已经调用过
+	const appProvided = inject('appProvided')
+	// ...
+	return {
+		// ...
+	}
+})
+```
+
+> [!DANGER]  
+> 文件不存在
 
 ## 修改记录
 
 - 2026.5.13@12:35 完成 Vue 的复习
-- 
+- 2026.5.13@17.49 完成 Vue Router 的学习

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778665118228-f6hcc3lt3",
+  "providerId": "claude",
+  "title": "Explore Vue Router advanced concepts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778665118228,
+  "updatedAt": 1778667012756,
+  "lastResponseAt": 1778667012756,
+  "sessionId": "885ed2af-0309-447d-95c6-d2ee688755c3",
+  "providerState": {
+    "providerSessionId": "885ed2af-0309-447d-95c6-d2ee688755c3"
+  },
+  "currentNote": "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 6986,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25755,
+    "contextWindow": 200000,
+    "contextTokens": 32741,
+    "percentage": 16
+  }
+}

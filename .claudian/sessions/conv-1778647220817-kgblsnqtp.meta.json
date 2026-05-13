@@ -4,8 +4,8 @@
   "title": "检查文档错误并补充内容建议",
   "titleGenerationStatus": "success",
   "createdAt": 1778647220818,
-  "updatedAt": 1778657842664,
-  "lastResponseAt": 1778657842664,
+  "updatedAt": 1778665108802,
+  "lastResponseAt": 1778664849962,
   "sessionId": "73c72672-eed5-4877-8322-c31a5761c720",
   "providerState": {
     "providerSessionId": "73c72672-eed5-4877-8322-c31a5761c720"
@@ -13,11 +13,11 @@
   "currentNote": "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 15585,
+    "inputTokens": 16608,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 15585,
+    "contextTokens": 16608,
     "percentage": 8,
     "contextWindowIsAuthoritative": true
   }
