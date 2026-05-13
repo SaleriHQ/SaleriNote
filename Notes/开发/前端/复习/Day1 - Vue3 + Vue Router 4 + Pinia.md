@@ -569,10 +569,36 @@ export const useSearchFilters = defineStore('search-filters', () => {
 })
 ```
 
-> [!Warning]  
-> 文件不存在
+> [!WARNING]  
+> 不要返回如`route`或`appProvided`之类的属性，因为它们不属于store。
+### 使用 Store
 
-7 ## 修改记录
+前面的代码只是定义了 store, 在调用之前是不会被创建的。
+
+```js
+const store = useCounterStore()
+```
+
+> [!TIP]
+> 我们可以定义任意多的 store, 但是为例让使用 pinia 的益处最大化（如构建工具自动进行代码分割及Typescript推断），我们应该在不同文件进行 store 的定义
+
+不过要注意的是 store 是一个 `reactive` 包装的对象，这意味着不需要再 getters 后面写 `.value`，同时也不能对他们进行结构。
+
+```js hl:2-3
+const store = useCounterStore();
+const { name, doubleCount } = store;// asd
+s
+
+
+
+```
+
+
+
+
+
+
+## 修改记录
 
 - 2026.5.13@12:35 完成 Vue 的复习
 - 2026.5.13@17.49 完成 Vue Router 的学习
