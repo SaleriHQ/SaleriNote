@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778647220817-kgblsnqtp",
+  "providerId": "claude",
+  "title": "检查文档错误并补充内容建议",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778647220818,
+  "updatedAt": 1778648969249,
+  "lastResponseAt": 1778648969249,
+  "sessionId": "73c72672-eed5-4877-8322-c31a5761c720",
+  "providerState": {
+    "providerSessionId": "73c72672-eed5-4877-8322-c31a5761c720"
+  },
+  "currentNote": "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 12012,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 12012,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}

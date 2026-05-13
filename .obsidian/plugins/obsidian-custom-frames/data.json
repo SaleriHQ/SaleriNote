@@ -1,9 +1,21 @@
 {
   "frames": [
     {
-      "url": "https://dida365.com/pub/calendar/feeds/cdxzv1u761db/basic.ics",
+      "url": "https://dida365.com/",
       "displayName": "滴答",
       "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://tasks.google.com/embed/?origin=https://calendar.google.com&fullWidth=1",
+      "displayName": "Google Tasks",
+      "icon": "list-checks",
       "hideOnMobile": true,
       "addRibbonIcon": false,
       "openInCenter": false,

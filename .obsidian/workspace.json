@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f1024dac6ffb80bb",
+        "id": "c385904b7c22def3",
         "type": "tabs",
         "children": [
           {
-            "id": "ce73c7a0d7b2f82c",
+            "id": "3782994023065e6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Day1 - Vue3 + Vue Router 4 + Pinia"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 244.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -138,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Day1 - Vue3 + Vue Router 4 + Pinia 的大纲"
             }
           },
           {
@@ -165,13 +171,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c4a8cb37f5fd3484",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-滴答",
+              "state": {},
+              "icon": "documents",
+              "title": "滴答"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 554.5
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,27 +198,37 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "41690df788e5d264",
+  "active": "3782994023065e6e",
   "lastOpenFiles": [
     "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
-    "未命名.md",
+    "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md.tmp.36699.13f0ad7ad83b",
+    "Concepts/Vue/虚拟DOM.md",
+    "Concepts/Vue/侦听器.md",
+    "Concepts/Vue/依赖注入.md",
+    "Concepts/Vue/响应式系统.md",
+    "Concepts/Vue/生命周期.md",
+    "Concepts/Vue/生命周期.md",
+    "Concepts/Vue/插槽.md",
+    "Concepts/Vue/计算属性.md",
+    "Concepts/Vue/模板引用.md",
+    "Notes/Concepts/前端/基础",
+    "Notes/Concepts/前端/Vue",
+    "Notes/Concepts/前端",
+    "Notes/Concepts",
+    "Concepts/Vue",
+    "Concepts/开发/前端/Vue",
+    "Concepts/开发/前端",
+    "Concepts/开发",
     "Notes/开发/前端/前端工作计划.md",
+    "11.md",
+    "未命名.md",
     "Notes/开发/前端/复习",
     "Notes/开发/前端/关于寻找前端开发相关工作的复习计划.md",
-    "Notes/开发/前端",
-    "Notes/开发",
-    "Clippings",
-    "Concepts",
-    "Blogs",
-    "Notes",
     "Notes/计算机硬件/关于台式组建和配置硬件选择.md",
     "Clippings/Bilibili/2026-05-12-[FF14]妖星乱舞绝境战-筹备专题茶话会.md",
     "Notes/游戏/FF14/妖星乱舞绝境战-筹备茶话会笔记.md",
-    "Notes/游戏/FF14",
-    "Notes/游戏",
     "Clippings/Bilibili/2026-05-11-【白TV】DIY电脑装机教程（2025-2027）.md",
     "Clippings/Bilibili/2026-05-11-选风冷还是选水冷，看这一期视频就够了.md",
-    "Clippings/Bilibili",
     "Notes/计算机硬件/assets/Pasted image 20260511184019.png",
     "template/{{title}}.md",
     "Concepts/计算机硬件/GPU.md",
@@ -210,17 +236,6 @@
     "Concepts/计算机硬件/存储.md",
     "Notes/台式/台式电脑配置学习.md",
     "Concepts/计算机硬件/配置单.md",
-    "Concepts/计算机硬件/电源.md",
-    "Concepts/计算机硬件/内存.md",
-    "Concepts/计算机硬件/机箱.md",
-    "w.md",
-    "未命名 1.md",
-    "Concepts/计算机硬件/组装.md",
-    "Concepts/计算机硬件/散热.md",
-    "Concepts/计算机硬件/主板.md",
-    "Notes/台式/硬件系统概论.md",
-    "Clippings/MIT18.01/static_shared/mathjax/README.009b4259a26029ef2261.md",
-    "Clippings/MIT18.01/static_shared/mathjax/CONTRIBUTING.be29e891326e401c2bed.md",
     "Clippings/MIT18.01/static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png",
     "Clippings/MIT18.01/static_shared/images/youtube.1e55fc2f8fc09d36a1a6.svg",
     "Clippings/MIT18.01/static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png",
