@@ -293,7 +293,7 @@ const router = createRouter({
 createApp(app).use(router).mount('#app');
 ```
 
-## 动态路由匹配
+### 动态路由匹配
 
 #### 带参数的路由匹配
 
@@ -625,14 +625,9 @@ export const useCounterStore = defineStore('counter', () => {
 	return { count, $reset }
 })
 ```
-#### Getter
-
-
-
-
-
 
 ## 修改记录
 
 - 2026.5.13@12:35 完成 Vue 的复习
 - 2026.5.13@17.49 完成 Vue Router 的学习
+- 2026.5.13@23.12 完成 Pinia 的学习
