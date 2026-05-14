@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778741472663-kqph24p9w",
+  "providerId": "claude",
+  "title": "Modify paragraph and add content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778741472663,
+  "updatedAt": 1778744801928,
+  "lastResponseAt": 1778744801928,
+  "sessionId": "44d3b47c-7cea-49bd-80cc-80a87fdd0447",
+  "providerState": {
+    "providerSessionId": "44d3b47c-7cea-49bd-80cc-80a87fdd0447"
+  },
+  "currentNote": "Notes/开发/前端/复习/Day2 - Typescript.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 17193,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 17193,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}
