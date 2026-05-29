@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779155020621-0azk4rqvj",
+  "providerId": "claude",
+  "title": "Check answers 1-3",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779155020621,
+  "updatedAt": 1779613309837,
+  "lastResponseAt": 1779201463316,
+  "sessionId": "cce779e8-6489-48d8-8f93-4abe8eba5bca",
+  "providerState": {
+    "providerSessionId": "cce779e8-6489-48d8-8f93-4abe8eba5bca"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 14625,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 14625,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

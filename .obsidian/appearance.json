@@ -4,6 +4,6 @@
   "cssTheme": "Cupertino",
   "interfaceFontFamily": "HarmonyOS Sans",
   "textFontFamily": "HarmonyOS Sans",
-  "monospaceFontFamily": "HarmonyOS Sans",
+  "monospaceFontFamily": "Consolas",
   "enabledCssSnippets": []
 }

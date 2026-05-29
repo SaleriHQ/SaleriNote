@@ -1,16 +1,15 @@
 {
   "id": "conv-1778741472663-kqph24p9w",
   "providerId": "claude",
-  "title": "Modify paragraph and add content",
+  "title": "Split frontend interview outline into daily rev...",
   "titleGenerationStatus": "success",
   "createdAt": 1778741472663,
-  "updatedAt": 1778744801928,
-  "lastResponseAt": 1778744801928,
+  "updatedAt": 1779104961834,
+  "lastResponseAt": 1779104884339,
   "sessionId": "44d3b47c-7cea-49bd-80cc-80a87fdd0447",
   "providerState": {
     "providerSessionId": "44d3b47c-7cea-49bd-80cc-80a87fdd0447"
   },
-  "currentNote": "Notes/开发/前端/复习/Day2 - Typescript.md",
   "usage": {
     "model": "haiku",
     "inputTokens": 17193,
