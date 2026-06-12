@@ -18,7 +18,7 @@ Well, let's say that your company takes pictures, cleans them up, stylizes them,
 
 The company started in the early 2000's, founded by an artist/photographer, and here's how it works:
 
-![Memories Company Workflow](https://danielmiessler.com/images/graph-of-algorithms-memories-workflow.png)
+![[graph-of-algorithms-memories-workflow.png|Memories Company Workflow]]
 
 - The user uploads the best quality digital image that you have of the photo, or sends it to the company
 - *Memories* receives it and does a high-quality scan—checking quality and repairing any damage using old-school photography techniques + Photoshop
@@ -31,11 +31,11 @@ Simple enough, and for anyone into computers you will recognize this as a series
 
 Also, each one of these steps is an algorithm itself, just like the full set of algorithms. So you could break the Upload step into its own piece.
 
-![Upload Process Breakdown](https://danielmiessler.com/images/graph-of-algorithms-upload-breakdown.png)
+![[graph-of-algorithms-upload-breakdown.png|Upload Process Breakdown]]
 
 And you can keep going. Each of those steps can be broken down even further—it's algorithms all the way down.
 
-![Algorithms Within Algorithms](https://danielmiessler.com/images/graph-of-algorithms-recursion.png)
+![[graph-of-algorithms-recursion.png|Algorithms Within Algorithms]]
 
 But the sending and processing pieces aren't the only flows that make up the business. You also have:
 
@@ -49,7 +49,7 @@ But the sending and processing pieces aren't the only flows that make up the bus
 
 As you continue the process, you start seeing a full picture of all the different pieces that make up the business.
 
-![Full Business Graph](https://danielmiessler.com/images/graph-of-algorithms-full-business-graph.png)
+![[graph-of-algorithms-full-business-graph.png|Full Business Graph]]
 
 I think of this as a graph of algorithms.
 
@@ -80,11 +80,11 @@ AI is about to end that, and consultancies like Accenture, KPMG, and McKinsey wi
 - We'll figure out which teams are not effective
 - We'll figure out which processes and workflows shouldn't even be happening at all because they can be eliminated or consolidated into another workflow
 
-![The Transparency Pitch](https://danielmiessler.com/images/graph-of-algorithms-consultant-pitch.png)
+![[graph-of-algorithms-consultant-pitch.png|The Transparency Pitch]]
 
 And the result will inevitably be a smaller, tighter company that not only saves money but has fewer humans required to run it.
 
-![The Inevitable Result](https://danielmiessler.com/images/graph-of-algorithms-inevitable-result.png)
+![[graph-of-algorithms-inevitable-result.png|The Inevitable Result]]
 
 ## Continuous optimization
 
@@ -92,15 +92,15 @@ This won't just happen once.
 
 Once AI has been used inside a company—in this way—it's just one step away from a workflow that continuously analyzes these business components/algorithms.
 
-![Continuous Optimization](https://danielmiessler.com/images/graph-of-algorithms-continuous-optimization.png)
+![[graph-of-algorithms-continuous-optimization.png|Continuous Optimization]]
 
 The system will constantly be asking things like:
 
-![Marketing Department Components](https://danielmiessler.com/images/graph-of-algorithms-marketing-components.png)
+![[graph-of-algorithms-marketing-components.png|Marketing Department Components]]
 
 Ok, I see these 6 components for your marketing department, let's look at one of those:
 
-![Marketing Workflow Detail](https://danielmiessler.com/images/graph-of-algorithms-marketing-workflow.png)
+![[graph-of-algorithms-marketing-workflow.png|Marketing Workflow Detail]]
 
 Cool, well we at AI-Consulting-Corp have questions:
 
@@ -117,9 +117,9 @@ And on, and on.
 
 And this isn't limited to marketing. Every single department has the same pattern—customer support, HR, hiring, you name it.
 
-![Customer Support](https://danielmiessler.com/images/graph-of-algorithms-support-department.png)
+![[graph-of-algorithms-support-department.png|Customer Support]]
 
-![HR & Hiring](https://danielmiessler.com/images/graph-of-algorithms-hr-hiring.png)
+![[graph-of-algorithms-hr-hiring.png|HR & Hiring]]
 
 ## Transparency opens the door for optimization
 
@@ -144,7 +144,7 @@ AI will do so much of this very soon, often better than most humans.
 
 On. And on. And on.
 
-![Before & After AI](https://danielmiessler.com/images/graph-of-algorithms-before-after-ai.png)
+![[graph-of-algorithms-before-after-ai.png|Before & After AI]]
 
 > You've probably never seen your company in this way, but AI soon will.
 
@@ -152,7 +152,7 @@ Every one of those items is just another algorithm. And the better AI gets, the 
 
 ## But my company is different
 
-![Your Company Is Different](https://danielmiessler.com/images/graph-of-algorithms-bigger-graph.png)
+![[graph-of-algorithms-bigger-graph.png|Your Company Is Different]]
 
 You might be inclined to say that your company doesn't just receive images to optimize and send them back to the customer.
 
@@ -180,7 +180,7 @@ This same process will also make it easier for people to start businesses, inclu
 
 But there will be downsides—especially from the loss of many easy-to-automate human jobs. My advice is not to be depressed, but instead to realize what's happening and prepare for it.
 
-![What Remains Human](https://danielmiessler.com/images/graph-of-algorithms-what-remains-human.png)
+![[graph-of-algorithms-what-remains-human.png|What Remains Human]]
 
 The only way out of this is through.
 
