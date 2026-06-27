@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b621da8e1d1451dd",
+        "id": "7d6c15894a00741c",
         "type": "tabs",
         "children": [
           {
-            "id": "b3e2c27625d26418",
+            "id": "48b7e1a8983c87e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/【开源 Skills】清华博士自用的科研&编程 & 日常 Agent 生态：COMPASS 司南.md",
+                "file": "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/01-算法与计算基础 (Algorithms and Computation).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【开源 Skills】清华博士自用的科研&编程 & 日常 Agent 生态：COMPASS 司南"
+              "title": "01-算法与计算基础 (Algorithms and Computation)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 317.5110321044922
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -162,16 +162,6 @@
             }
           },
           {
-            "id": "9a5eae53f133aeb1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "c4a8cb37f5fd3484",
             "type": "leaf",
             "state": {
@@ -186,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 599.5
+    "width": 599.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +188,17 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "b3e2c27625d26418",
+  "active": "48b7e1a8983c87e8",
   "lastOpenFiles": [
-    "Clippings/Companies Are Just a Graph of Algorithms.md",
+    "template/{{title}}.md",
+    "Clippings/给佬们分享一下我的Cursor工作流（强依赖L站版）.md",
+    "Clippings/「开源」是时候精简你的 AGENTS.md 了! By渐进式披露.md",
+    "Clippings/【10年+世界500强跨国公司HR】长期职场答疑：面试、跳槽、涨薪、offer｜已整理部分问答.md",
+    "Clippings/公司Trellis技术分享，有需要的佬可以复用.md",
+    "Clippings/哪位佬有成熟的vibecoding经验分享.md",
+    "Clippings/Any牌路由器使用清障！.md",
     "Clippings/【开源 Skills】清华博士自用的科研&编程 & 日常 Agent 生态：COMPASS 司南.md",
+    "Clippings/Companies Are Just a Graph of Algorithms.md",
     "Clippings/assets/graph-of-algorithms-what-remains-human.png",
     "Clippings/assets/graph-of-algorithms-bigger-graph.png",
     "Clippings/assets/graph-of-algorithms-before-after-ai.png",
@@ -233,13 +231,6 @@
     "Notes/复习/前端/Day05 - 2026-05-23 - 浏览器渲染原理.md",
     "Notes/复习/前端/Day04 - 2026-05-22 - JavaScript 机制 手写题.md",
     "Notes/复习/前端/Day03 - 2026-05-21 - JavaScript ES6 基础.md",
-    "Notes/复习/前端/Day1 - HTML + CSS 基础.md",
-    "Clippings/Codex - 前端面试知识大纲.md",
-    "Clippings/前端面试6月2日前复习计划.md",
-    "Clippings/前端面试知识大纲.md",
-    "Notes/复习/前端/Day2 - CSS 进阶.md",
-    "Notes/复习/前端/Day11 - Vue 核心.md",
-    "Notes/复习/前端/Day15 - Buffer - 复盘与查漏补缺.md",
     "Notes/复习/前端",
     "Notes/生活/日记",
     "Notes/生活/阅读",

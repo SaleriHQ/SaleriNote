@@ -4,8 +4,8 @@
   "obsidian-style-settings",
   "dataview",
   "obsidian-local-rest-api",
-  "obsidian-git",
   "obsidian-custom-frames",
   "obsidian-icon-folder",
-  "explorer-colors"
+  "explorer-colors",
+  "obsidian-git"
 ]
