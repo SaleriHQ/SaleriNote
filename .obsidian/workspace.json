@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa8cbd739bc146c",
+        "id": "6e392e616b538e45",
         "type": "tabs",
         "children": [
           {
-            "id": "a800b232c5a73ce9",
+            "id": "7ddc72b70b40d0f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/开发/前端/复习/Day3 HTML 八股 + CSS 八股 + 项目规范.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Day3 HTML 八股 + CSS 八股 + 项目规范"
+              "title": "新标签页"
             }
           }
         ]
@@ -198,10 +194,10 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "a800b232c5a73ce9",
+  "active": "7ddc72b70b40d0f8",
   "lastOpenFiles": [
-    "Concepts/什么是HTML语义化.md",
     "Notes/开发/前端/复习/Day3 HTML 八股 + CSS 八股 + 项目规范.md",
+    "Concepts/什么是HTML语义化.md",
     "Notes/开发/前端/复习/Day1 - Vue3 + Vue Router 4 + Pinia.md",
     "Notes/开发/前端/前端工作计划.md",
     "Clippings/2026 春招最新前端刷题知识路线 - 面试鸭  2026最新学习路线+面试题目+详细题解.md",
