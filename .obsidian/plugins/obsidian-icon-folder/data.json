@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiBook",
+      "LiFolderCog2",
+      "LiAccessibility",
+      "LiCode2",
+      "LiBriefcase"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Clippings": {
+    "iconName": "LiArchive",
+    "iconColor": "#32ff96"
+  },
+  "Concepts": {
+    "iconName": "LiTags",
+    "iconColor": "#3c87ff"
+  },
+  "Notes": {
+    "iconName": "LiNotebookText",
+    "iconColor": "#ffff00"
+  },
+  "Notes/复习": {
+    "iconName": "LiRefreshCw",
+    "iconColor": "#3c87ff"
+  },
+  "Notes/工作": {
+    "iconName": "LiBriefcase",
+    "iconColor": "#ff4b4b"
+  },
+  "Notes/开发": {
+    "iconName": "LiCode2",
+    "iconColor": "#32ff9b"
+  },
+  "Notes/生活": {
+    "iconName": "LiAccessibility",
+    "iconColor": "#32ff9b"
+  },
+  "Notes/项目": {
+    "iconName": "LiFolderCog2",
+    "iconColor": "#32ff9b"
+  },
+  "Notes/学习": {
+    "iconName": "LiBook",
+    "iconColor": "#32ff9b"
+  }
+}

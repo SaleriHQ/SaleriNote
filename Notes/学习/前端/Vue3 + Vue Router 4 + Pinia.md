@@ -2,7 +2,11 @@
 created: 2026-05-13
 updated: 2026-05-13
 tags:
- - 
+  - 前端
+  - 复习
+  - Vue
+  - VueRouter
+  - Pinia
 ---
 ## Vue3
 

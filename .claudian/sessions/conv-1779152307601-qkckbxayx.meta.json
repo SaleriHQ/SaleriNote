@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779152307601-qkckbxayx",
+  "providerId": "claude",
+  "title": "根据前端面试复习计划修改文件",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779152307601,
+  "updatedAt": 1779155010945,
+  "lastResponseAt": 1779154165149,
+  "sessionId": "e147cc74-564a-41ca-b5d1-1aa040aca0c1",
+  "providerState": {
+    "providerSessionId": "e147cc74-564a-41ca-b5d1-1aa040aca0c1"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 65871,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 65871,
+    "percentage": 33,
+    "contextWindowIsAuthoritative": true
+  }
+}

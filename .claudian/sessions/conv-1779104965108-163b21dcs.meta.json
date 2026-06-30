@@ -1,0 +1,23 @@
+{
+  "id": "conv-1779104965108-163b21dcs",
+  "providerId": "claude",
+  "title": "Create daily frontend interview review files",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779104965108,
+  "updatedAt": 1779152304782,
+  "lastResponseAt": 1779107530105,
+  "sessionId": "8b49c90a-be88-4648-9c58-c207286858c0",
+  "providerState": {
+    "providerSessionId": "8b49c90a-be88-4648-9c58-c207286858c0"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 159289,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 159289,
+    "percentage": 80,
+    "contextWindowIsAuthoritative": true
+  }
+}

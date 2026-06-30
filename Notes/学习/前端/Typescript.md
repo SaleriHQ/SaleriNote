@@ -2,7 +2,9 @@
 created: 2026-05-14
 updated: 2026-05-14
 tags:
- - 
+  - 复习
+  - 前端
+  - TypeScript
 ---
 ## Typescript 基础
 

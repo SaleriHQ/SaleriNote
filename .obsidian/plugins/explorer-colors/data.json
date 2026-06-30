@@ -1,0 +1,34 @@
+{
+  "itemData": {
+    "Clippings": {
+      "itemColor": "#32ff96",
+      "cascadeEnabled": false
+    },
+    "Concepts": {
+      "itemColor": "#3c87ff",
+      "cascadeEnabled": false
+    },
+    "Notes": {
+      "itemColor": "#ffff00"
+    },
+    "Notes/复习": {
+      "itemColor": "#3c87ff"
+    },
+    "Notes/工作": {
+      "itemColor": "#ff4b4b"
+    },
+    "Notes/开发": {
+      "itemColor": "#32ff9b"
+    },
+    "Notes/生活": {
+      "itemColor": "#32ff9b"
+    },
+    "Notes/项目": {
+      "itemColor": "#32ff9b"
+    },
+    "Notes/学习": {
+      "itemColor": "#32ff9b"
+    }
+  },
+  "pluginConfig": {}
+}

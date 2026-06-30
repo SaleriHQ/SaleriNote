@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779613325242-5ynwua7js",
+  "providerId": "claude",
+  "title": "将字幕文件整理为一篇文章",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779613325243,
+  "updatedAt": 1779613452176,
+  "lastResponseAt": 1779613452176,
+  "sessionId": "14cf8d99-da3d-4537-b05a-a28ddc2600c7",
+  "providerState": {
+    "providerSessionId": "14cf8d99-da3d-4537-b05a-a28ddc2600c7"
+  },
+  "currentNote": "Clippings/Bilibili/2026-05-24-科学验证：改善头前倾姿势的最佳方法.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 13591,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 13591,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}
