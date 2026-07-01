@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiUpload",
       "LiBook",
       "LiFolderCog2",
       "LiAccessibility",
-      "LiCode2",
-      "LiBriefcase"
+      "LiCode2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,6 @@
   "Notes/学习": {
     "iconName": "LiBook",
     "iconColor": "#32ff9b"
-  }
+  },
+  "Posts": "LiUpload"
 }

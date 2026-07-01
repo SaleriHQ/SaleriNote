@@ -28,6 +28,10 @@
     },
     "Notes/学习": {
       "itemColor": "#32ff9b"
+    },
+    "Posts": {
+      "itemColor": "#48fe5e",
+      "cascadeEnabled": false
     }
   },
   "pluginConfig": {}
