@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c1919a4e94458be",
+        "id": "ca8f827d38f88422",
         "type": "tabs",
         "children": [
           {
-            "id": "a01c247dfc3895c6",
+            "id": "58c83d24cb2d66f4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5110321044922,
-    "collapsed": true
+    "width": 244.5110321044922
   },
   "right": {
     "id": "44d8217378ada5b9",
@@ -195,8 +194,14 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "a01c247dfc3895c6",
+  "active": "067ecee0431cd251",
   "lastOpenFiles": [
+    "Concepts/Vue/虚拟DOM.md",
+    "Concepts/Vue/响应式系统.md",
+    "Concepts/Vue/模板引用.md",
+    "Concepts/Vue/插槽.md",
+    "Concepts/VueRouter/导航守卫.md",
+    "Concepts/Promise 和 async await.md",
     "conflict-files-obsidian-git.md",
     "Notes/学习/MIT6.006/Problem Set/Problem Set_1.md",
     "Notes/学习/MIT6.006/Problem Set/Problem Set_0.md",
@@ -217,17 +222,11 @@
     "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/07-平衡二叉树 AVL树 (Binary Trees, Part 2 - AVL).md",
     "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/06-二叉树与二叉搜索树 (Binary Trees, Part 1).md",
     "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/05-线性时间排序 (Linear Sorting).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/04-哈希表设计 (Hashing).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/03-集合接口与比较排序 (Sets and Sorting).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/02-基础数据结构与动态数组 (Data Structures and Dynamic Arrays).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/01-算法与计算基础 (Algorithms and Computation).md",
     "Notes/学习/MIT6.006/Problem Set",
     "Notes/学习/MIT6.006/04-计算复杂性与前沿前瞻 (Complexity & Review)",
     "Notes/学习/MIT6.006/03-动态规划设计范式 (Dynamic Programming)",
     "Notes/学习/MIT6.006/02-图论与最短路径算法 (Graph Algorithms)",
     "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)",
-    "Notes/学习/前端/金山云一面真题.md",
-    "Notes/学习/前端/Vue3 + Vue Router 4 + Pinia.md",
     "Notes/学习/前端",
     "Notes/学习/MIT6.006",
     "Notes/学习",
