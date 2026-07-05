@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGamepad2",
       "LiUpload",
       "LiBook",
       "LiFolderCog2",
-      "LiAccessibility",
-      "LiCode2"
+      "LiAccessibility"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -70,5 +70,6 @@
     "iconName": "LiBook",
     "iconColor": "#32ff9b"
   },
-  "Posts": "LiUpload"
+  "Blogs": "LiUpload",
+  "Notes/游戏": "LiGamepad2"
 }

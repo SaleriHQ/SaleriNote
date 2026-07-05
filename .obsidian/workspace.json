@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8f827d38f88422",
+        "id": "d7242f87888582bf",
         "type": "tabs",
         "children": [
           {
-            "id": "58c83d24cb2d66f4",
+            "id": "b7cbe0145e071209",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Posts/未命名.md",
+                "file": "Notes/游戏/未命名.md",
                 "mode": "source",
                 "source": false
               },
@@ -198,17 +198,21 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "58c83d24cb2d66f4",
+  "active": "b7cbe0145e071209",
   "lastOpenFiles": [
-    "Posts/未命名.md",
+    "Notes/游戏/未命名.md",
+    "Notes/游戏",
+    "Clippings/堕化该隐机制全解 一篇攻略让你成为独眼高手.md",
+    "Concepts/Promise 和 async await.md",
+    "Blogs/CMS.608 Leature 2:迭代设计.md",
+    "Blogs/未命名.md",
     "Concepts/Vue/侦听器.md",
-    "Posts",
+    "Blogs",
     "Concepts/Vue/虚拟DOM.md",
     "Concepts/Vue/响应式系统.md",
     "Concepts/Vue/模板引用.md",
     "Concepts/Vue/插槽.md",
     "Concepts/VueRouter/导航守卫.md",
-    "Concepts/Promise 和 async await.md",
     "conflict-files-obsidian-git.md",
     "Notes/学习/MIT6.006/Problem Set/Problem Set_1.md",
     "Notes/学习/MIT6.006/Problem Set/Problem Set_0.md",
@@ -224,9 +228,6 @@
     "Notes/学习/MIT6.006/02-图论与最短路径算法 (Graph Algorithms)/04-Bellman-Ford 算法 (Bellman-Ford).md",
     "Notes/学习/MIT6.006/02-图论与最短路径算法 (Graph Algorithms)/03-权重图最短路径基础 (Weighted Shortest Paths).md",
     "Notes/学习/MIT6.006/02-图论与最短路径算法 (Graph Algorithms)/02-深度优先搜索与拓扑排序 (Depth-First Search).md",
-    "Notes/学习/MIT6.006/02-图论与最短路径算法 (Graph Algorithms)/01-广度优先搜索 (Breadth-First Search).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/08-优先队列与二叉堆 (Binary Heaps).md",
-    "Notes/学习/MIT6.006/01-数据结构与排序基础 (Data Structures & Sorting)/07-平衡二叉树 AVL树 (Binary Trees, Part 2 - AVL).md",
     "Notes/学习/MIT6.006/Problem Set",
     "Notes/学习/MIT6.006/04-计算复杂性与前沿前瞻 (Complexity & Review)",
     "Notes/学习/MIT6.006/03-动态规划设计范式 (Dynamic Programming)",
@@ -244,7 +245,6 @@
     "Clippings/assets/graph-of-algorithms-marketing-workflow.png",
     "Clippings/assets/graph-of-algorithms-marketing-components.png",
     "Clippings/assets/graph-of-algorithms-inevitable-result.png",
-    "Clippings/assets/graph-of-algorithms-hr-hiring.png",
-    "Clippings/assets"
+    "Clippings/assets/graph-of-algorithms-hr-hiring.png"
   ]
 }

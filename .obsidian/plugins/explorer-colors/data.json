@@ -29,9 +29,12 @@
     "Notes/学习": {
       "itemColor": "#32ff9b"
     },
-    "Posts": {
+    "Blogs": {
       "itemColor": "#48fe5e",
       "cascadeEnabled": false
+    },
+    "Notes/游戏": {
+      "itemColor": "#ff0000"
     }
   },
   "pluginConfig": {}
